@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,15 +11,47 @@
 		DD75239926DB8A9600004F0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD75239826DB8A9600004F0D /* ContentView.swift */; };
 		DD75239B26DB8A9900004F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD75239A26DB8A9900004F0D /* Assets.xcassets */; };
 		DD75239E26DB8A9900004F0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD75239D26DB8A9900004F0D /* Preview Assets.xcassets */; };
+		DD7523A726DB911000004F0D /* SwiftChartsBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523A626DB911000004F0D /* SwiftChartsBarChart.swift */; };
+		DD7523A926DB943F00004F0D /* SwiftChartsLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523A826DB943F00004F0D /* SwiftChartsLineChart.swift */; };
+		DD7523AB26DB945B00004F0D /* SwiftChartsPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523AA26DB945B00004F0D /* SwiftChartsPieChart.swift */; };
+		DD7523B026DB963100004F0D /* SwiftCharts in Frameworks */ = {isa = PBXBuildFile; productRef = DD7523AF26DB963100004F0D /* SwiftCharts */; };
+		DD7523B126DB963100004F0D /* SwiftCharts in Embed Frameworks */ = {isa = PBXBuildFile; productRef = DD7523AF26DB963100004F0D /* SwiftCharts */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		DD7523B726DB9D0700004F0D /* StockChartsLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523B426DB9D0700004F0D /* StockChartsLineChart.swift */; };
+		DD7523B826DB9D0700004F0D /* StockChartsBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523B526DB9D0700004F0D /* StockChartsBarChart.swift */; };
+		DD7523BC26DBA2C700004F0D /* StockCharts in Frameworks */ = {isa = PBXBuildFile; productRef = DD7523BB26DBA2C700004F0D /* StockCharts */; };
+		DD7523BF26DBAA7E00004F0D /* SwiftUiChartsBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523BE26DBAA7E00004F0D /* SwiftUiChartsBarChart.swift */; };
+		DD7523C226DBABC500004F0D /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = DD7523C126DBABC500004F0D /* Charts */; };
+		DD7523C426DBB12C00004F0D /* SwiftUiChartsLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523C326DBB12C00004F0D /* SwiftUiChartsLineChart.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DD7523B226DB963100004F0D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DD7523B126DB963100004F0D /* SwiftCharts in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		DD75239326DB8A9600004F0D /* Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD75239326DB8A9600004F0D /* ChartsPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD75239626DB8A9600004F0D /* ChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsApp.swift; sourceTree = "<group>"; };
 		DD75239826DB8A9600004F0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD75239A26DB8A9900004F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD75239D26DB8A9900004F0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD75239F26DB8A9900004F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7523A626DB911000004F0D /* SwiftChartsBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartsBarChart.swift; sourceTree = "<group>"; };
+		DD7523A826DB943F00004F0D /* SwiftChartsLineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftChartsLineChart.swift; sourceTree = "<group>"; };
+		DD7523AA26DB945B00004F0D /* SwiftChartsPieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftChartsPieChart.swift; sourceTree = "<group>"; };
+		DD7523B426DB9D0700004F0D /* StockChartsLineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockChartsLineChart.swift; sourceTree = "<group>"; };
+		DD7523B526DB9D0700004F0D /* StockChartsBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockChartsBarChart.swift; sourceTree = "<group>"; };
+		DD7523BE26DBAA7E00004F0D /* SwiftUiChartsBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiChartsBarChart.swift; sourceTree = "<group>"; };
+		DD7523C326DBB12C00004F0D /* SwiftUiChartsLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiChartsLineChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7523BC26DBA2C700004F0D /* StockCharts in Frameworks */,
+				DD7523C226DBABC500004F0D /* Charts in Frameworks */,
+				DD7523B026DB963100004F0D /* SwiftCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +71,7 @@
 		DD75238A26DB8A9600004F0D = {
 			isa = PBXGroup;
 			children = (
-				DD75239526DB8A9600004F0D /* Charts */,
+				DD75239526DB8A9600004F0D /* ChartsPlayground */,
 				DD75239426DB8A9600004F0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +79,24 @@
 		DD75239426DB8A9600004F0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD75239326DB8A9600004F0D /* Charts.app */,
+				DD75239326DB8A9600004F0D /* ChartsPlayground.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD75239526DB8A9600004F0D /* Charts */ = {
+		DD75239526DB8A9600004F0D /* ChartsPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				DD7523BD26DBAA2800004F0D /* SwiftUiCharts */,
+				DD7523B326DB9D0700004F0D /* StockCharts */,
+				DD7523A526DB90D900004F0D /* SwiftCharts */,
 				DD75239626DB8A9600004F0D /* ChartsApp.swift */,
 				DD75239826DB8A9600004F0D /* ContentView.swift */,
 				DD75239A26DB8A9900004F0D /* Assets.xcassets */,
 				DD75239F26DB8A9900004F0D /* Info.plist */,
 				DD75239C26DB8A9900004F0D /* Preview Content */,
 			);
-			path = Charts;
+			path = ChartsPlayground;
 			sourceTree = "<group>";
 		};
 		DD75239C26DB8A9900004F0D /* Preview Content */ = {
@@ -69,24 +107,58 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DD7523A526DB90D900004F0D /* SwiftCharts */ = {
+			isa = PBXGroup;
+			children = (
+				DD7523A626DB911000004F0D /* SwiftChartsBarChart.swift */,
+				DD7523AA26DB945B00004F0D /* SwiftChartsPieChart.swift */,
+				DD7523A826DB943F00004F0D /* SwiftChartsLineChart.swift */,
+			);
+			path = SwiftCharts;
+			sourceTree = "<group>";
+		};
+		DD7523B326DB9D0700004F0D /* StockCharts */ = {
+			isa = PBXGroup;
+			children = (
+				DD7523B426DB9D0700004F0D /* StockChartsLineChart.swift */,
+				DD7523B526DB9D0700004F0D /* StockChartsBarChart.swift */,
+			);
+			path = StockCharts;
+			sourceTree = "<group>";
+		};
+		DD7523BD26DBAA2800004F0D /* SwiftUiCharts */ = {
+			isa = PBXGroup;
+			children = (
+				DD7523BE26DBAA7E00004F0D /* SwiftUiChartsBarChart.swift */,
+				DD7523C326DBB12C00004F0D /* SwiftUiChartsLineChart.swift */,
+			);
+			path = SwiftUiCharts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD75239226DB8A9600004F0D /* Charts */ = {
+		DD75239226DB8A9600004F0D /* ChartsPlayground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD7523A226DB8A9900004F0D /* Build configuration list for PBXNativeTarget "Charts" */;
+			buildConfigurationList = DD7523A226DB8A9900004F0D /* Build configuration list for PBXNativeTarget "ChartsPlayground" */;
 			buildPhases = (
 				DD75238F26DB8A9600004F0D /* Sources */,
 				DD75239026DB8A9600004F0D /* Frameworks */,
 				DD75239126DB8A9600004F0D /* Resources */,
+				DD7523B226DB963100004F0D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Charts;
+			name = ChartsPlayground;
+			packageProductDependencies = (
+				DD7523AF26DB963100004F0D /* SwiftCharts */,
+				DD7523BB26DBA2C700004F0D /* StockCharts */,
+				DD7523C126DBABC500004F0D /* Charts */,
+			);
 			productName = Charts;
-			productReference = DD75239326DB8A9600004F0D /* Charts.app */;
+			productReference = DD75239326DB8A9600004F0D /* ChartsPlayground.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD75238E26DB8A9600004F0D /* Build configuration list for PBXProject "Charts" */;
+			buildConfigurationList = DD75238E26DB8A9600004F0D /* Build configuration list for PBXProject "ChartsPlayground" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,11 +184,16 @@
 				Base,
 			);
 			mainGroup = DD75238A26DB8A9600004F0D;
+			packageReferences = (
+				DD7523AE26DB963100004F0D /* XCRemoteSwiftPackageReference "SwiftCharts" */,
+				DD7523BA26DBA2C700004F0D /* XCRemoteSwiftPackageReference "stock-charts" */,
+				DD7523C026DBABC500004F0D /* XCRemoteSwiftPackageReference "swiftui-charts" */,
+			);
 			productRefGroup = DD75239426DB8A9600004F0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD75239226DB8A9600004F0D /* Charts */,
+				DD75239226DB8A9600004F0D /* ChartsPlayground */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +215,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7523AB26DB945B00004F0D /* SwiftChartsPieChart.swift in Sources */,
 				DD75239926DB8A9600004F0D /* ContentView.swift in Sources */,
+				DD7523B726DB9D0700004F0D /* StockChartsLineChart.swift in Sources */,
+				DD7523B826DB9D0700004F0D /* StockChartsBarChart.swift in Sources */,
+				DD7523A926DB943F00004F0D /* SwiftChartsLineChart.swift in Sources */,
+				DD7523C426DBB12C00004F0D /* SwiftUiChartsLineChart.swift in Sources */,
+				DD7523BF26DBAA7E00004F0D /* SwiftUiChartsBarChart.swift in Sources */,
+				DD7523A726DB911000004F0D /* SwiftChartsBarChart.swift in Sources */,
 				DD75239726DB8A9600004F0D /* ChartsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,10 +352,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Charts/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ChartsPlayground/Preview Content\"";
 				DEVELOPMENT_TEAM = 9MD9DV36EY;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Charts/Info.plist;
+				INFOPLIST_FILE = ChartsPlayground/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,10 +374,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Charts/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ChartsPlayground/Preview Content\"";
 				DEVELOPMENT_TEAM = 9MD9DV36EY;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Charts/Info.plist;
+				INFOPLIST_FILE = ChartsPlayground/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,7 +393,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD75238E26DB8A9600004F0D /* Build configuration list for PBXProject "Charts" */ = {
+		DD75238E26DB8A9600004F0D /* Build configuration list for PBXProject "ChartsPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD7523A026DB8A9900004F0D /* Debug */,
@@ -318,7 +402,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD7523A226DB8A9900004F0D /* Build configuration list for PBXNativeTarget "Charts" */ = {
+		DD7523A226DB8A9900004F0D /* Build configuration list for PBXNativeTarget "ChartsPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD7523A326DB8A9900004F0D /* Debug */,
@@ -328,6 +412,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD7523AE26DB963100004F0D /* XCRemoteSwiftPackageReference "SwiftCharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ivanschuetz/SwiftCharts/";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DD7523BA26DBA2C700004F0D /* XCRemoteSwiftPackageReference "stock-charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/denniscm190/stock-charts";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		DD7523C026DBABC500004F0D /* XCRemoteSwiftPackageReference "swiftui-charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spacenation/swiftui-charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD7523AF26DB963100004F0D /* SwiftCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD7523AE26DB963100004F0D /* XCRemoteSwiftPackageReference "SwiftCharts" */;
+			productName = SwiftCharts;
+		};
+		DD7523BB26DBA2C700004F0D /* StockCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD7523BA26DBA2C700004F0D /* XCRemoteSwiftPackageReference "stock-charts" */;
+			productName = StockCharts;
+		};
+		DD7523C126DBABC500004F0D /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD7523C026DBABC500004F0D /* XCRemoteSwiftPackageReference "swiftui-charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD75238B26DB8A9600004F0D /* Project object */;
 }
