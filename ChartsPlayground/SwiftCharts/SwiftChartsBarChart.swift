@@ -10,7 +10,12 @@ import SwiftUI
 import UIKit
 
 struct SwiftChartsBarChart: View {
-    let data: [String: Int]
+    let data = [
+        "Rewe": 38523,
+        "Lidl": 43251,
+        "Restaurant with a long name": 5032,
+        "Some Store": 4632
+    ]
     
     var body: some View {
         Form {

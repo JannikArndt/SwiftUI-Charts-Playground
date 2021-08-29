@@ -26,6 +26,16 @@
 		DD7523D526DBD32A00004F0D /* AppPearLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523D426DBD32A00004F0D /* AppPearLineChart.swift */; };
 		DD7523D726DBD38F00004F0D /* AppPearPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523D626DBD38F00004F0D /* AppPearPieChart.swift */; };
 		DD7523DA26DBD7B500004F0D /* SwiftUICustomCharts in Frameworks */ = {isa = PBXBuildFile; productRef = DD7523D926DBD7B500004F0D /* SwiftUICustomCharts */; };
+		DD7523DD26DBD91600004F0D /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = DD7523DC26DBD91600004F0D /* Charts */; };
+		DD7523E326DBD93000004F0D /* ChartsBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523E226DBD93000004F0D /* ChartsBarChart.swift */; };
+		DD7523E526DBD94C00004F0D /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523E426DBD94C00004F0D /* BarChart.swift */; };
+		DD7523E826DBDA1D00004F0D /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = DD7523E726DBDA1D00004F0D /* Algorithms */; };
+		DD7523EA26DBE40A00004F0D /* HorizontalBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523E926DBE40A00004F0D /* HorizontalBarChart.swift */; };
+		DD7523EC26DBE88C00004F0D /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523EB26DBE88C00004F0D /* LineChart.swift */; };
+		DD7523EE26DBE8F000004F0D /* ChartsLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523ED26DBE8F000004F0D /* ChartsLineChart.swift */; };
+		DD7523F026DBECB100004F0D /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523EF26DBECB100004F0D /* DateValueFormatter.swift */; };
+		DD7523F226DBEE3D00004F0D /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523F126DBEE3D00004F0D /* PieChart.swift */; };
+		DD7523F426DBEE8200004F0D /* ChartsPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523F326DBEE8200004F0D /* ChartsPieChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +69,14 @@
 		DD7523D226DBCFD800004F0D /* AppPearBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPearBarChart.swift; sourceTree = "<group>"; };
 		DD7523D426DBD32A00004F0D /* AppPearLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPearLineChart.swift; sourceTree = "<group>"; };
 		DD7523D626DBD38F00004F0D /* AppPearPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPearPieChart.swift; sourceTree = "<group>"; };
+		DD7523E226DBD93000004F0D /* ChartsBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsBarChart.swift; sourceTree = "<group>"; };
+		DD7523E426DBD94C00004F0D /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		DD7523E926DBE40A00004F0D /* HorizontalBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalBarChart.swift; sourceTree = "<group>"; };
+		DD7523EB26DBE88C00004F0D /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		DD7523ED26DBE8F000004F0D /* ChartsLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsLineChart.swift; sourceTree = "<group>"; };
+		DD7523EF26DBECB100004F0D /* DateValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		DD7523F126DBEE3D00004F0D /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		DD7523F326DBEE8200004F0D /* ChartsPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsPieChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7523DD26DBD91600004F0D /* Charts in Frameworks */,
+				DD7523E826DBDA1D00004F0D /* Algorithms in Frameworks */,
 				DD7523BC26DBA2C700004F0D /* StockCharts in Frameworks */,
 				DD7523D026DBCFC000004F0D /* SwiftUICharts in Frameworks */,
 				DD7523DA26DBD7B500004F0D /* SwiftUICustomCharts in Frameworks */,
@@ -95,6 +115,7 @@
 		DD75239526DB8A9600004F0D /* ChartsPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				DD7523E126DBD92700004F0D /* Charts */,
 				DD7523D126DBCFCA00004F0D /* AppPear */,
 				DD7523BD26DBAA2800004F0D /* SwiftUiCharts */,
 				DD7523B326DB9D0700004F0D /* StockCharts */,
@@ -154,6 +175,21 @@
 			path = AppPear;
 			sourceTree = "<group>";
 		};
+		DD7523E126DBD92700004F0D /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				DD7523E226DBD93000004F0D /* ChartsBarChart.swift */,
+				DD7523E426DBD94C00004F0D /* BarChart.swift */,
+				DD7523E926DBE40A00004F0D /* HorizontalBarChart.swift */,
+				DD7523EB26DBE88C00004F0D /* LineChart.swift */,
+				DD7523ED26DBE8F000004F0D /* ChartsLineChart.swift */,
+				DD7523EF26DBECB100004F0D /* DateValueFormatter.swift */,
+				DD7523F126DBEE3D00004F0D /* PieChart.swift */,
+				DD7523F326DBEE8200004F0D /* ChartsPieChart.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,6 +212,8 @@
 				DD7523BB26DBA2C700004F0D /* StockCharts */,
 				DD7523CF26DBCFC000004F0D /* SwiftUICharts */,
 				DD7523D926DBD7B500004F0D /* SwiftUICustomCharts */,
+				DD7523DC26DBD91600004F0D /* Charts */,
+				DD7523E726DBDA1D00004F0D /* Algorithms */,
 			);
 			productName = Charts;
 			productReference = DD75239326DB8A9600004F0D /* ChartsPlayground.app */;
@@ -209,6 +247,8 @@
 				DD7523BA26DBA2C700004F0D /* XCRemoteSwiftPackageReference "stock-charts" */,
 				DD7523CE26DBCFC000004F0D /* XCRemoteSwiftPackageReference "ChartView" */,
 				DD7523D826DBD7B500004F0D /* XCRemoteSwiftPackageReference "swiftui-charts" */,
+				DD7523DB26DBD91600004F0D /* XCRemoteSwiftPackageReference "Charts" */,
+				DD7523E626DBDA1D00004F0D /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 			);
 			productRefGroup = DD75239426DB8A9600004F0D /* Products */;
 			projectDirPath = "";
@@ -240,13 +280,21 @@
 				DD75239926DB8A9600004F0D /* ContentView.swift in Sources */,
 				DD7523B726DB9D0700004F0D /* StockChartsLineChart.swift in Sources */,
 				DD7523B826DB9D0700004F0D /* StockChartsBarChart.swift in Sources */,
+				DD7523EC26DBE88C00004F0D /* LineChart.swift in Sources */,
 				DD7523A926DB943F00004F0D /* SwiftChartsLineChart.swift in Sources */,
 				DD7523C426DBB12C00004F0D /* SwiftUiChartsLineChart.swift in Sources */,
+				DD7523EA26DBE40A00004F0D /* HorizontalBarChart.swift in Sources */,
 				DD7523BF26DBAA7E00004F0D /* SwiftUiChartsBarChart.swift in Sources */,
 				DD7523A726DB911000004F0D /* SwiftChartsBarChart.swift in Sources */,
+				DD7523F226DBEE3D00004F0D /* PieChart.swift in Sources */,
 				DD7523D526DBD32A00004F0D /* AppPearLineChart.swift in Sources */,
 				DD7523D326DBCFD800004F0D /* AppPearBarChart.swift in Sources */,
+				DD7523E326DBD93000004F0D /* ChartsBarChart.swift in Sources */,
 				DD75239726DB8A9600004F0D /* ChartsApp.swift in Sources */,
+				DD7523F026DBECB100004F0D /* DateValueFormatter.swift in Sources */,
+				DD7523F426DBEE8200004F0D /* ChartsPieChart.swift in Sources */,
+				DD7523E526DBD94C00004F0D /* BarChart.swift in Sources */,
+				DD7523EE26DBE8F000004F0D /* ChartsLineChart.swift in Sources */,
 				DD7523D726DBD38F00004F0D /* AppPearPieChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +518,22 @@
 				kind = branch;
 			};
 		};
+		DD7523DB26DBD91600004F0D /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+		DD7523E626DBDA1D00004F0D /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -492,6 +556,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DD7523D826DBD7B500004F0D /* XCRemoteSwiftPackageReference "swiftui-charts" */;
 			productName = SwiftUICustomCharts;
+		};
+		DD7523DC26DBD91600004F0D /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD7523DB26DBD91600004F0D /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		DD7523E726DBDA1D00004F0D /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD7523E626DBDA1D00004F0D /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
