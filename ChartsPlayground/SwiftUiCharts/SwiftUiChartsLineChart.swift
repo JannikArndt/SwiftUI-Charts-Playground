@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Charts
+import SwiftUICustomCharts
 
 struct SwiftUiChartsLineChart: View {
     @State var data = [12.54, 53.42, 32.11, 44.99, 12.54, 153.42, 132.11, 144.99, 312.54, 353.42, 32.11, 44.99]

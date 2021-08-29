@@ -5,7 +5,7 @@
 //  Created by Jannik Arndt on 29.08.21.
 //
 
-import Charts
+import SwiftUICustomCharts
 import SwiftUI
 
 struct SwiftUiChartsBarChart: View {

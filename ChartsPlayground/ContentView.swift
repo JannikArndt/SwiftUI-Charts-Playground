@@ -37,6 +37,13 @@ struct ContentView: View {
                     NavigationLink("Bar Chart", destination: SwiftUiChartsBarChart(), tag: "SwiftUiChartsBarChart", selection: $selectedView)
                     NavigationLink("Line Chart", destination: SwiftUiChartsLineChart(), tag: "SwiftUiChartsLineChart", selection: $selectedView)
                 }
+                
+                // https://github.com/AppPear/ChartView
+                Section(header: Text("AppPear/ChartView")) {
+                    NavigationLink("Bar Chart", destination: AppPearBarChart(), tag: "AppPearBarChart", selection: $selectedView)
+                    NavigationLink("Line Chart", destination: AppPearLineChart(), tag: "AppPearLineChart", selection: $selectedView)
+                    NavigationLink("Pie Chart", destination: AppPearPieChart(), tag: "AppPearPieChart", selection: $selectedView)
+                }
             }
             .navigationBarTitle("Charts")
         }
