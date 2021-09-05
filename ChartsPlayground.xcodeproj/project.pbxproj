@@ -36,6 +36,7 @@
 		DD7523F026DBECB100004F0D /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523EF26DBECB100004F0D /* DateValueFormatter.swift */; };
 		DD7523F226DBEE3D00004F0D /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523F126DBEE3D00004F0D /* PieChart.swift */; };
 		DD7523F426DBEE8200004F0D /* ChartsPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523F326DBEE8200004F0D /* ChartsPieChart.swift */; };
+		DD8BC08E26E4F48000849857 /* BarChartWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8BC08D26E4F48000849857 /* BarChartWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +78,7 @@
 		DD7523EF26DBECB100004F0D /* DateValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
 		DD7523F126DBEE3D00004F0D /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
 		DD7523F326DBEE8200004F0D /* ChartsPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsPieChart.swift; sourceTree = "<group>"; };
+		DD8BC08D26E4F48000849857 /* BarChartWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				DD7523A626DB911000004F0D /* SwiftChartsBarChart.swift */,
 				DD7523AA26DB945B00004F0D /* SwiftChartsPieChart.swift */,
 				DD7523A826DB943F00004F0D /* SwiftChartsLineChart.swift */,
+				DD8BC08D26E4F48000849857 /* BarChartWrapper.swift */,
 			);
 			path = SwiftCharts;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				DD7523F026DBECB100004F0D /* DateValueFormatter.swift in Sources */,
 				DD7523F426DBEE8200004F0D /* ChartsPieChart.swift in Sources */,
 				DD7523E526DBD94C00004F0D /* BarChart.swift in Sources */,
+				DD8BC08E26E4F48000849857 /* BarChartWrapper.swift in Sources */,
 				DD7523EE26DBE8F000004F0D /* ChartsLineChart.swift in Sources */,
 				DD7523D726DBD38F00004F0D /* AppPearPieChart.swift in Sources */,
 			);

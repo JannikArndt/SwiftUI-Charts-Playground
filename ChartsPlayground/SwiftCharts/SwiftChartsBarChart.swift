@@ -10,42 +10,31 @@ import SwiftUI
 import UIKit
 
 struct SwiftChartsBarChart: View {
-    let data = [
-        "Rewe": 38523,
-        "Lidl": 43251,
-        "Restaurant with a long name": 5032,
-        "Some Store": 4632
+    @State private var data = [
+        ("A", 2),
+        ("B", 4.5),
+        ("C", 3),
+        ("D", 5.4),
+        ("E", 6.8),
+        ("F", 0.5)
     ]
-    
-    var body: some View {
-        Form {
-            Text("Bar Chart")
-            ChartView(data: data, width: 300, height: 400)
-                .frame(width: 300, height: 400, alignment: .center)
-            Text("Cool!")
-        }
-    }
-}
 
-struct ChartView: UIViewRepresentable {
-    let data: [String: Int]
-    let width: Int
-    let height: Int
-    
-    func makeUIView(context: Context) -> UIView {
-        let chartConfig = BarsChartConfig(
-            chartSettings: ChartSettings(), valsAxisConfig: ChartAxisConfig(from: 0, to: 50, by: 5), xAxisLabelSettings: ChartLabelSettings(), yAxisLabelSettings: ChartLabelSettings(), guidelinesConfig: GuidelinesConfig(dotted: true, lineWidth: 1, lineColor: UIColor.blue)
-        )
-        
-        let frame = CGRect(x: 0, y: 0, width: width, height: height)
-        let bars = data.map { (key: String, value: Int) in
-            (key, Double(value) / 10)
+    let data2 = [
+        ("Rewe", 38.523),
+        ("Lidl", 43.251),
+        ("Restaurant with a long name", 50.32),
+        ("Some Store", 46.32)
+    ]
+
+    var body: some View {
+        VStack(alignment: .center, spacing: 20) {
+            Form {
+                BarChartWrapper(data: data2, width: 300, height: 400)
+                    .frame(width: 300, height: 400, alignment: .center)
+                Button("Add data") {
+                    data.append(("X", Double.random(in: 1 ..< 10)))
+                }
+            }
         }
-        
-        let chart = BarsChart(frame: frame, chartConfig: chartConfig, xTitle: "€", yTitle: "Store", bars: bars, color: UIColor.green, barWidth: 20, animDuration: 0.4, animDelay: 0.5, horizontal: true)
-        
-        return chart.view
     }
-    
-    func updateUIView(_ uiView: UIView, context: Context) {}
 }
