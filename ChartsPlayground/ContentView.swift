@@ -13,6 +13,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             Form {
+                // https://github.com/carekit-apple/CareKit#carekitui-
+                Section(header: Text("carekit-apple/CareKit")) {
+                    NavigationLink("All Charts", destination: CareKitChart(), tag: "CareKitChart", selection: $selectedView)
+                }
                 // https://github.com/ivanschuetz/SwiftCharts
                 Section(header: Text("ivanschuetz/SwiftCharts")) {
                     NavigationLink("Bar Chart", destination: SwiftChartsBarChart(), tag: "SwiftChartsBarChart", selection: $selectedView)

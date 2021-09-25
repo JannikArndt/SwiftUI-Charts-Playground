@@ -37,6 +37,10 @@
 		DD7523F226DBEE3D00004F0D /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523F126DBEE3D00004F0D /* PieChart.swift */; };
 		DD7523F426DBEE8200004F0D /* ChartsPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7523F326DBEE8200004F0D /* ChartsPieChart.swift */; };
 		DD8BC08E26E4F48000849857 /* BarChartWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8BC08D26E4F48000849857 /* BarChartWrapper.swift */; };
+		DDE5595226FF33D600EE12B5 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = DDE5595126FF33D600EE12B5 /* CareKit */; };
+		DDE5595426FF33D600EE12B5 /* CareKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = DDE5595326FF33D600EE12B5 /* CareKitUI */; };
+		DDE5595626FF367E00EE12B5 /* CareKitChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5595526FF367E00EE12B5 /* CareKitChart.swift */; };
+		DDE5595A26FF3CB000EE12B5 /* CKChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE5595926FF3CB000EE12B5 /* CKChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +83,8 @@
 		DD7523F126DBEE3D00004F0D /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
 		DD7523F326DBEE8200004F0D /* ChartsPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsPieChart.swift; sourceTree = "<group>"; };
 		DD8BC08D26E4F48000849857 /* BarChartWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartWrapper.swift; sourceTree = "<group>"; };
+		DDE5595526FF367E00EE12B5 /* CareKitChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareKitChart.swift; sourceTree = "<group>"; };
+		DDE5595926FF3CB000EE12B5 /* CKChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD7523DD26DBD91600004F0D /* Charts in Frameworks */,
+				DDE5595226FF33D600EE12B5 /* CareKit in Frameworks */,
+				DDE5595426FF33D600EE12B5 /* CareKitUI in Frameworks */,
 				DD7523E826DBDA1D00004F0D /* Algorithms in Frameworks */,
 				DD7523BC26DBA2C700004F0D /* StockCharts in Frameworks */,
 				DD7523D026DBCFC000004F0D /* SwiftUICharts in Frameworks */,
@@ -117,6 +125,7 @@
 		DD75239526DB8A9600004F0D /* ChartsPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				DDE5594D26FF31E600EE12B5 /* CareKit */,
 				DD7523E126DBD92700004F0D /* Charts */,
 				DD7523D126DBCFCA00004F0D /* AppPear */,
 				DD7523BD26DBAA2800004F0D /* SwiftUiCharts */,
@@ -193,6 +202,15 @@
 			path = Charts;
 			sourceTree = "<group>";
 		};
+		DDE5594D26FF31E600EE12B5 /* CareKit */ = {
+			isa = PBXGroup;
+			children = (
+				DDE5595526FF367E00EE12B5 /* CareKitChart.swift */,
+				DDE5595926FF3CB000EE12B5 /* CKChartView.swift */,
+			);
+			path = CareKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -217,6 +235,8 @@
 				DD7523D926DBD7B500004F0D /* SwiftUICustomCharts */,
 				DD7523DC26DBD91600004F0D /* Charts */,
 				DD7523E726DBDA1D00004F0D /* Algorithms */,
+				DDE5595126FF33D600EE12B5 /* CareKit */,
+				DDE5595326FF33D600EE12B5 /* CareKitUI */,
 			);
 			productName = Charts;
 			productReference = DD75239326DB8A9600004F0D /* ChartsPlayground.app */;
@@ -252,6 +272,7 @@
 				DD7523D826DBD7B500004F0D /* XCRemoteSwiftPackageReference "swiftui-charts" */,
 				DD7523DB26DBD91600004F0D /* XCRemoteSwiftPackageReference "Charts" */,
 				DD7523E626DBDA1D00004F0D /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				DDE5595026FF33D600EE12B5 /* XCRemoteSwiftPackageReference "CareKit" */,
 			);
 			productRefGroup = DD75239426DB8A9600004F0D /* Products */;
 			projectDirPath = "";
@@ -282,6 +303,7 @@
 				DD7523AB26DB945B00004F0D /* SwiftChartsPieChart.swift in Sources */,
 				DD75239926DB8A9600004F0D /* ContentView.swift in Sources */,
 				DD7523B726DB9D0700004F0D /* StockChartsLineChart.swift in Sources */,
+				DDE5595626FF367E00EE12B5 /* CareKitChart.swift in Sources */,
 				DD7523B826DB9D0700004F0D /* StockChartsBarChart.swift in Sources */,
 				DD7523EC26DBE88C00004F0D /* LineChart.swift in Sources */,
 				DD7523A926DB943F00004F0D /* SwiftChartsLineChart.swift in Sources */,
@@ -297,6 +319,7 @@
 				DD7523F026DBECB100004F0D /* DateValueFormatter.swift in Sources */,
 				DD7523F426DBEE8200004F0D /* ChartsPieChart.swift in Sources */,
 				DD7523E526DBD94C00004F0D /* BarChart.swift in Sources */,
+				DDE5595A26FF3CB000EE12B5 /* CKChartView.swift in Sources */,
 				DD8BC08E26E4F48000849857 /* BarChartWrapper.swift in Sources */,
 				DD7523EE26DBE8F000004F0D /* ChartsLineChart.swift in Sources */,
 				DD7523D726DBD38F00004F0D /* AppPearPieChart.swift in Sources */,
@@ -538,6 +561,14 @@
 				version = 0.0.1;
 			};
 		};
+		DDE5595026FF33D600EE12B5 /* XCRemoteSwiftPackageReference "CareKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/carekit-apple/CareKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -570,6 +601,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DD7523E626DBDA1D00004F0D /* XCRemoteSwiftPackageReference "swift-algorithms" */;
 			productName = Algorithms;
+		};
+		DDE5595126FF33D600EE12B5 /* CareKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE5595026FF33D600EE12B5 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKit;
+		};
+		DDE5595326FF33D600EE12B5 /* CareKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE5595026FF33D600EE12B5 /* XCRemoteSwiftPackageReference "CareKit" */;
+			productName = CareKitUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
